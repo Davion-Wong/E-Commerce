@@ -1,0 +1,44 @@
+.latest-products-section {
+  padding: 20px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+  background-color: white;
+}
+
+.product-item {
+  height: 200px;
+  text-align: center;
+  display: grid;
+  grid-template-rows: auto 1fr; /* Two rows: one for image, one for content */
+  margin: 10px;
+  background-color: var(--primary-color);
+}
+
+.product-item .img-container {
+  width: 130px;
+  height: 130px;
+  overflow: hidden; /* Hide the excess part of the image */
+  position: relative;
+  margin: auto;
+}
+
+.product-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Scale and crop the image to fit the container */
+}
+
+.product-item a {
+  text-decoration: none;
+}
+
+.product-item h3,
+.product-item p {
+  margin: 5px 0;
+  color: white;
+  text-decoration: none;
+}
