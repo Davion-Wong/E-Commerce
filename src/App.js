@@ -31,7 +31,7 @@ function App() {
   return (
     <UserProvider>
       <CartProvider>
-        <Router>    
+        <Router basename="/E-Commerce">    
             <Header />
             <Navigation />
             <Routes>          
