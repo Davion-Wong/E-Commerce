@@ -44,3 +44,7 @@
   font-size: 16px;
   color: #666;
 }
+
+.product-list .product-links {
+  text-decoration: none;
+}

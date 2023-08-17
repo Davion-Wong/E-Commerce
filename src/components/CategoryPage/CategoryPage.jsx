@@ -44,11 +44,11 @@ function CategoryPage() {
       </div>
       <ul className="product-list">
         {filteredProducts.map(product => (          
-          <Link to={`/product/${product.id}`}>
+          <Link to={`/product/${product.id}`} className="product-links">
             <li key={product.id}>
               <img src={product.image} alt={product.name} />
               <h3>{product.name}</h3>
-              <p>{product.price}</p>
+              <p>${product.price}</p>
             </li>
           </Link>
         ))}
