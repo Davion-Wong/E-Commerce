@@ -28,6 +28,10 @@
   object-fit: cover;
 }
 
+.offer-item-link {
+  text-decoration: none;  
+}
+
 .offer-item .original-price {
   text-decoration: line-through;
   color: #999;

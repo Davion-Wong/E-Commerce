@@ -11,7 +11,7 @@ function SpecialOffers() {
       <div className="offers-grid">
         {deals.map((deal, index) => (
           <div key={index} className="offer-item">
-            <Link to={deal.path}>
+            <Link to={deal.path} className='offer-item-link'>
               <div className='img-container'>
                 <img src={deal.image} alt={deal.name} />
               </div>
